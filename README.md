@@ -12,11 +12,13 @@ Each night it picks a genre, finds one small real detail in the day's news, grow
 
 ## How it works
 
-1. **Genre.** Chosen by weekday: far-future science fiction, the paranormal, lesser-told Indian mythology, a tale about an undeciphered script, near-future fiction from the news, folklore, and one free night.
-2. **Seed.** A few web searches for the day's news in science, technology, space, archaeology or nature. One concrete detail becomes the starting point.
-3. **Story.** 900 to 1,100 words, written for the ear, calm enough for bedtime.
-4. **Narration.** The open-source [Kokoro](https://github.com/thewh1teagle/kokoro-onnx) speech model renders the text to audio locally in the agent's sandbox. No text is sent to a speech service.
-5. **Delivery.** The MP3 and text are returned in the agent's session. Nothing is written to cloud storage.
+1. **Genre.** Chosen by weekday: far-future science fiction, the paranormal, lesser-told Indian mythology, a tale about an undeciphered script, near-future fiction from the news, a traveller's log where folklore is literally true, and one free night.
+2. **Seed.** A few web searches for the day's news in science, technology, space, archaeology or nature. One small, odd, concrete detail becomes the starting point.
+3. **Idea.** Before writing, the agent drafts six "what if" premises and throws out any a listener could have guessed. It keeps the one that makes something ordinary look strange.
+4. **Story.** 900 to 1,100 words, written for the ear, quiet in tone and large in idea, with no stated moral.
+5. **Edit.** The agent rereads as an editor whose verdict is "good, but not great", rewrites the most predictable part, and starts again once if no line is worth repeating the next day.
+6. **Narration.** The open-source [Kokoro](https://github.com/thewh1teagle/kokoro-onnx) speech model renders the text to audio locally in the agent's sandbox. No text is sent to a speech service.
+7. **Delivery.** The MP3 and text are returned in the agent's session. Nothing is written to cloud storage.
 
 ## Files
 
